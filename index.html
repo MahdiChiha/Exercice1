@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <title>Site1</title>
+        <meta charset="UTF-8">
+        <link rel = "stylesheet"    type = "text/css"   href = "assets/css/style.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script language="javascript" src="assets/js/main.js"> 
+                
+        </script>
+    </head>
+    <body>
+        <!-- Header-->
+        <div class="div_header">
+                <a href="file1.html">File1</a>
+               
+        </div>
+        <!--content-->
+        <div id="div_content">
+        <div id="sidebar">
+       
+        <input type="button" value="File1" onclick="DesginForm()"> 
+        </div>
+        <div class="content"> 
+        <form>
+            <table id="table">
+                <tr>
+                    <td>
+                        <label>Nom</label></td>
+                    <td><input type="text" placeholder="Nom du personne"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Prénom</label></td>
+                    <td><input type="text" placeholder="Prénom du personne"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Sexe</label></td>
+                    <td>
+                        <select>
+                            <option>Homme</option>
+                            <option>Femme</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Age</label></td>
+                    <td>
+                      <input type="number" min="20" max="100">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Date de Naissance</label></td>
+                    <td>
+                      <input type="date" >
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Photo</label></td>
+                    <td>
+                      <input type="file" >
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Mot de passe</label></td>
+                    <td>
+                      <input type="password" >
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                       <input type="button" value="Ajouter">
+                       <input type="button" value="Modifier">
+                       <input type="button" value="Supprimer">
+                    </td>
+                </tr>
+            </table>
+        </form>
+        
+        
+        </div>
+        </div>
+        <!-- footer -->
+        <div style="border: solid 1px #161515;height: 100px;"></div>
+    </body>
+</html>
