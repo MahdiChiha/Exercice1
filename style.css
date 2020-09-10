@@ -1,0 +1,23 @@
+.div_header{
+    border: solid 1px #161515;height: 178px;
+}
+#div_content{
+    border: solid 1px #161515;height: auto;
+}
+#sidebar{
+    border: solid 1px #161515; height: 500px; width: 200px;float: left; background-color: aquamarine;
+}
+.content{
+    border: solid 1px #161515;height: 500px;  width: 100%; background-color: azure;
+}
+tr{
+    background-color: blue;
+}
+label{
+    color: white
+}
+input[type=button]{
+    width: 100%;
+height: 50px;
+
+}
